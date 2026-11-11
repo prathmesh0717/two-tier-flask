@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Flask App with MySQL Docker Setup
 
 A small two-tier app: a Flask web app that stores messages in MySQL. Submit a message in the form; it is saved in the database and listed on the page.
@@ -120,3 +121,6 @@ pytest
 
 - This is a demo setup. For production use real secrets management, TLS and backups.
 - If something fails, check `docker compose logs`.
+=======
+# two-tier-flask
+>>>>>>> a6ef634b53b0064378caca77535f004df226bf22
