@@ -32,7 +32,7 @@ pipeline{
         }
         stage("Deploy code"){
             steps{
-                echo "deploy code using K8s"
+                sh "docker compose up -d --build flask-app"
             }
         }
     }
